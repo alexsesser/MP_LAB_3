@@ -1,0 +1,106 @@
+\hypertarget{_metods__3_8cpp}{}\doxysection{D\+:/учёба/Методы програмирования/\+Metods\+\_\+3/\+Metods\+\_\+3.cpp File Reference}
+\label{_metods__3_8cpp}\index{D:/учёба/Методы програмирования/Metods\_3/Metods\_3.cpp@{D:/учёба/Методы програмирования/Metods\_3/Metods\_3.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+{\ttfamily \#include $<$chrono$>$}\newline
+{\ttfamily \#include $<$algorithm$>$}\newline
+{\ttfamily \#include $<$clocale$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$time.\+h$>$}\newline
+{\ttfamily \#include $<$iterator$>$}\newline
+{\ttfamily \#include $<$map$>$}\newline
+{\ttfamily \#include $<$set$>$}\newline
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_passenger}{Passenger}}
+\item 
+class \mbox{\hyperlink{class_hash_table}{Hash\+Table}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+long long \mbox{\hyperlink{_metods__3_8cpp_afdd79aadbdbc41381787caa73f09544e}{simple\+Hash}} (string \&key)
+\item 
+long long \mbox{\hyperlink{_metods__3_8cpp_af2873f96dc5831973ddda1c36c62928b}{complecs\+Hash}} (string \&key)
+\item 
+ostream \& \mbox{\hyperlink{_metods__3_8cpp_a9e7da160b0e6c7825535d522d7a742dc}{operator$<$$<$}} (ostream \&out, const \mbox{\hyperlink{class_passenger}{Passenger}} \&passagir)
+\item 
+long long \mbox{\hyperlink{_metods__3_8cpp_abb09208e4c5b7b971aa1067cdfafe1a4}{hash}} (string \&key)
+\item 
+ofstream \mbox{\hyperlink{_metods__3_8cpp_ab719b03f0a13dac9fa16fe8b3527b1b3}{out\+\_\+d}} (\char`\"{}D\+:/учёба/Методы програмирования/Metods\+\_\+3/graph/ris\+\_\+grahp.\+txt\char`\"{})
+\item 
+void \mbox{\hyperlink{_metods__3_8cpp_a6fae2247c1a0ba4df07ce7551252c59e}{handle\+File}} (string file\+Name, int hash\+Metod, string key)
+\item 
+int \mbox{\hyperlink{_metods__3_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{_metods__3_8cpp_a09e891cd0262f295ac11770f8f216842}{hash\+\_\+metod}} = 1
+\item 
+const int \mbox{\hyperlink{_metods__3_8cpp_a92ddf520a144cb82df249b28857e2436}{magic\+Number}} = 31
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_metods__3_8cpp_af2873f96dc5831973ddda1c36c62928b}\label{_metods__3_8cpp_af2873f96dc5831973ddda1c36c62928b}} 
+\index{Metods\_3.cpp@{Metods\_3.cpp}!complecsHash@{complecsHash}}
+\index{complecsHash@{complecsHash}!Metods\_3.cpp@{Metods\_3.cpp}}
+\doxysubsubsection{\texorpdfstring{complecsHash()}{complecsHash()}}
+{\footnotesize\ttfamily long long complecs\+Hash (\begin{DoxyParamCaption}\item[{string \&}]{key }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_metods__3_8cpp_a6fae2247c1a0ba4df07ce7551252c59e}\label{_metods__3_8cpp_a6fae2247c1a0ba4df07ce7551252c59e}} 
+\index{Metods\_3.cpp@{Metods\_3.cpp}!handleFile@{handleFile}}
+\index{handleFile@{handleFile}!Metods\_3.cpp@{Metods\_3.cpp}}
+\doxysubsubsection{\texorpdfstring{handleFile()}{handleFile()}}
+{\footnotesize\ttfamily void handle\+File (\begin{DoxyParamCaption}\item[{string}]{file\+Name,  }\item[{int}]{hash\+Metod,  }\item[{string}]{key }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_metods__3_8cpp_abb09208e4c5b7b971aa1067cdfafe1a4}\label{_metods__3_8cpp_abb09208e4c5b7b971aa1067cdfafe1a4}} 
+\index{Metods\_3.cpp@{Metods\_3.cpp}!hash@{hash}}
+\index{hash@{hash}!Metods\_3.cpp@{Metods\_3.cpp}}
+\doxysubsubsection{\texorpdfstring{hash()}{hash()}}
+{\footnotesize\ttfamily long long hash (\begin{DoxyParamCaption}\item[{string \&}]{key }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_metods__3_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{_metods__3_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{Metods\_3.cpp@{Metods\_3.cpp}!main@{main}}
+\index{main@{main}!Metods\_3.cpp@{Metods\_3.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_metods__3_8cpp_a9e7da160b0e6c7825535d522d7a742dc}\label{_metods__3_8cpp_a9e7da160b0e6c7825535d522d7a742dc}} 
+\index{Metods\_3.cpp@{Metods\_3.cpp}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Metods\_3.cpp@{Metods\_3.cpp}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}}
+{\footnotesize\ttfamily ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{out,  }\item[{const \mbox{\hyperlink{class_passenger}{Passenger}} \&}]{passagir }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_metods__3_8cpp_ab719b03f0a13dac9fa16fe8b3527b1b3}\label{_metods__3_8cpp_ab719b03f0a13dac9fa16fe8b3527b1b3}} 
+\index{Metods\_3.cpp@{Metods\_3.cpp}!out\_d@{out\_d}}
+\index{out\_d@{out\_d}!Metods\_3.cpp@{Metods\_3.cpp}}
+\doxysubsubsection{\texorpdfstring{out\_d()}{out\_d()}}
+{\footnotesize\ttfamily ofstream out\+\_\+d (\begin{DoxyParamCaption}\item[{\char`\"{}D\+:/учёба/Методы програмирования/Metods\+\_\+3/graph/ris\+\_\+grahp.\+txt\char`\"{}}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_metods__3_8cpp_afdd79aadbdbc41381787caa73f09544e}\label{_metods__3_8cpp_afdd79aadbdbc41381787caa73f09544e}} 
+\index{Metods\_3.cpp@{Metods\_3.cpp}!simpleHash@{simpleHash}}
+\index{simpleHash@{simpleHash}!Metods\_3.cpp@{Metods\_3.cpp}}
+\doxysubsubsection{\texorpdfstring{simpleHash()}{simpleHash()}}
+{\footnotesize\ttfamily long long simple\+Hash (\begin{DoxyParamCaption}\item[{string \&}]{key }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{_metods__3_8cpp_a09e891cd0262f295ac11770f8f216842}\label{_metods__3_8cpp_a09e891cd0262f295ac11770f8f216842}} 
+\index{Metods\_3.cpp@{Metods\_3.cpp}!hash\_metod@{hash\_metod}}
+\index{hash\_metod@{hash\_metod}!Metods\_3.cpp@{Metods\_3.cpp}}
+\doxysubsubsection{\texorpdfstring{hash\_metod}{hash\_metod}}
+{\footnotesize\ttfamily int hash\+\_\+metod = 1}
+
+\mbox{\Hypertarget{_metods__3_8cpp_a92ddf520a144cb82df249b28857e2436}\label{_metods__3_8cpp_a92ddf520a144cb82df249b28857e2436}} 
+\index{Metods\_3.cpp@{Metods\_3.cpp}!magicNumber@{magicNumber}}
+\index{magicNumber@{magicNumber}!Metods\_3.cpp@{Metods\_3.cpp}}
+\doxysubsubsection{\texorpdfstring{magicNumber}{magicNumber}}
+{\footnotesize\ttfamily const int magic\+Number = 31}
+
